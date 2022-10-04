@@ -1,7 +1,14 @@
 {
   "root": true,
-  "extends": ["next/core-web-vitals"],
+  "extends": ["standard-with-typescript"],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
   "plugins": ["testing-library"],
+  "rules": {
+    "@typescript-eslint/consistent-type-definitions": "off",
+    "@typescript-eslint/strict-boolean-expressions": "off"
+  },
   "overrides": [
     // Only uses Testing Library lint rules in test files
     {

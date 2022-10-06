@@ -14,7 +14,8 @@
 		"testing-library/no-debugging-utils": "warn",
 		"testing-library/no-dom-import": "off",
     "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "warn"
+    "react-hooks/exhaustive-deps": "warn",
+    "no-tabs": ["error", { "allowIndentationTabs": true }]
   },
   "overrides": [
     // Only uses Testing Library lint rules in test files
